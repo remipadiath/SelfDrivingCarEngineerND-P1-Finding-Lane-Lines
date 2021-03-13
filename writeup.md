@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./images/pipeline.jpg "Grayscale"
+[image1]: ./images/pipeline.jpg 
 [image2]: ./test_images/solidYellowCurve.jpg
 [image3]: ./test_images/output_solidYellowCurve.jpg
 
