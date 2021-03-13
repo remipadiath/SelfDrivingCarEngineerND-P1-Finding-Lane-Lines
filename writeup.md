@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./images/pipeline.jpg
+[image1]: ./pipeline.jpg
 [image2]: ./test_images/solidYellowCurve.jpg
 [image3]: ./test_images/output_solidYellowCurve.jpg
 
@@ -38,7 +38,7 @@ The goals / steps of this project are the following:
 * Apply the hough transformation. Play around with parameteres a bit to find the ideal fit.  
 <br /> 
 
-![alt text][image1]
+| ![alt text][image1] |
 
 <br /> 
 
