@@ -3,7 +3,9 @@
 
 
 
+## Udacity Self Driving Car Engineer Nanodegree - Project 1 - Finding Lane Lines on the Road
 
+<br /> 
 
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
@@ -33,14 +35,14 @@ The goals / steps of this project are the following:
 * Apply the gaussian blur to smooth the image.
 * Detect the edges using canny function from OpenCV.
 * Select the region of interest and mask it to remove unwanted information in the image.
-* Apply the hough transformation. Play around with parameteres a bit find the ideal fit.  
+* Apply the hough transformation. Play around with parameteres a bit to find the ideal fit.  
 <br /> 
 
 ![alt text][image1]
 
 <br /> 
 
-* Draw the line on the image. Use the slope to determine if it is the right line or the left line. Needed to do a trial and error to find the parameters for the hough tranformation. To draw a single line, I gathered all the start and end x-coordinates and y-coordinates for the lines and used numpy polyfit to find the slope and the intercept. For the video, I applied the same logic for each frame. 
+* Draw the line on the image. Use the slope to determine if it is the right line or the left line. Needed to do a trial and error to find the parameters for the hough tranformation. To draw a single line, I gathered all the start and end x-coordinates and y-coordinates for the lines and used the Numpy polyfit to find the slope and the intercept. With that information, I calculated the start and end coordinates for one long line. For the video, I applied the same logic for each frame. 
 
 
 
@@ -57,4 +59,4 @@ The goals / steps of this project are the following:
 
 * Need to handle curves in the road lanes.
 * Probaby HSV would help dealing with poor image quality.
-* Kalman filter or EKF will help to smooth out the lines.
+* Kalman filter might help to smooth out the lines.
